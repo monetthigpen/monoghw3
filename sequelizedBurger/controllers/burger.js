@@ -1,8 +1,9 @@
 module.exports = function(sequelize, DataTypes) {
     var Todo = sequelize.define("Todo", {
-      text: DataTypes.STRING,
-      complete: DataTypes.BOOLEAN
+      burger_name: DataTypes.STRING,
+      devoured: DataTypes.BOOLEAN
     });
-    return Todo;
-  };
+    return insertOne;
+};
+
   
